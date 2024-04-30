@@ -170,7 +170,7 @@ section li{
    
     text-align: left;
     margin-left: 5%;
-	padding: 0 auto;
+	padding: 0 ;
 
 }
 
@@ -324,10 +324,7 @@ aside {
 		padding: 20px;
 	}
 	
-	img {
-		overflow: content-box;
-		
-	}
+	
 
 	@media only screen and (max-width: 600px) {
 		.flag-description {
