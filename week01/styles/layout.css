@@ -52,7 +52,7 @@ h2
  
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  display: block;
- font-size: 1.5em;
+ font-size: 1.1em;
  margin-block-start: 0.83em;
  margin-block-end: 0.83em;
  margin-inline-start: 0px;
@@ -65,7 +65,7 @@ h3{
     text-align: center;
     color: #355eab;
     
- background-color: rgba(32, 125, 187, 0.7);
+ 
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -318,8 +318,8 @@ aside {
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		max-width: 15%;
-		height: auto;
+		max-width: 18%;
+		height: 40%;
 		border-radius: 10px;
 		padding: 20px;
 	}
@@ -369,10 +369,27 @@ aside {
 
 
 
-		a:-webkit-any-link {
+		a {
 			
 			cursor: pointer;
 			text-decoration: underline;
 			
 			
 		}
+
+div{
+        
+            display: block;
+            unicode-bidi: isolate;
+        }
+.card-content {
+
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    grid-row: span 2;
+    grid-row-start: span 2;
+    grid-row-end: auto;
+}
