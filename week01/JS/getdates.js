@@ -1,3 +1,5 @@
+
+
 // Get the current year
 var currentYear = new Date().getFullYear();
 
